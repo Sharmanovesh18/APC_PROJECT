@@ -14,6 +14,7 @@
     <maven.compiler.target>17</maven.compiler.target>
     <spring.version>5.3.39</spring.version>
     <junit.jupiter.version>5.10.2</junit.jupiter.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
@@ -57,12 +58,13 @@
       <version>23.3.0.23.09</version>
     </dependency>
 
-    <!-- Logging -->
+    <!-- Logging
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>1.4.14</version>
-    </dependency>
+    </dependency> -->
+   
 
     <!-- Test -->
     <dependency>
